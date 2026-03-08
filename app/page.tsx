@@ -5,10 +5,12 @@ import { X } from 'lucide-react';
 import ModelCard from '@/components/model-card';
 import { Button } from '@/components/ui/button';
 import ExamScorePrediction from '@/components/exam-score-prediction';
+import MrExamScorePrediction from '@/components/mr-exam-score-prediction';
 import { models } from '@/lib/models';
 
 const modelMap: Record<string, React.ComponentType> = {
   '1': ExamScorePrediction,
+  '2': MrExamScorePrediction,
 };
 
 export default function Home() {

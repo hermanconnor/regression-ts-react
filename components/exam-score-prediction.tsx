@@ -94,7 +94,7 @@ const ExamScorePrediction: React.FC = () => {
   return (
     <Card className='w-full'>
       <CardHeader>
-        <CardTitle className='text-center font-semibold text-xl'>
+        <CardTitle className='text-center font-semibold text-2xl'>
           Exam Score Prediction
         </CardTitle>
       </CardHeader>
